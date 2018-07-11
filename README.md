@@ -87,7 +87,7 @@ in other terminal:
 
 ```
   $ cd $IROOT/Pixo-sight-api
-  $ ln -s ../Pixo-sightPixo-sight/public
+  $ ln -s ../Pixo-sight/public
   $ INSIGHT_PUBLIC_PATH=public node insight.js 
 ```
 
