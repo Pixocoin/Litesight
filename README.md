@@ -4,7 +4,7 @@
 
 Check some screenshots and more details at [litesight's project homepage](https://github.com/pembo210/Litesight).
 
-*Pixo™sight* project is now split in two repositories. One for the [API](https://github.com/pembo210/Litesight-api)
+*Pixo™sight* project is now split in two repositories. One for the [API](https://github.com/Pixocoin/Pixo-sight-api)
 and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
 
 
@@ -35,7 +35,7 @@ and for the front-end. This repository is for the front-end, which will install 
     http://localhost:3000
 
   If *Pixo™sight* reports problems connecting to **litecoind** please check the CONFIGURATION section of 
-  [litesight-api README](https://github.com/pembo210/Litesight-api/blob/master/README.md). To set the 
+  [Pixo-sight-api README](https://github.com/Pixocoin/Pixo-sight-api/blob/master/README.md). To set the 
   environment variables run something like:
   
      $ INSIGHT_NETWORK=livenet BITCOIND_USER=user BITCOIND_PASS=pass INSIGHT_PUBLIC_PATH=public  npm start
@@ -44,7 +44,7 @@ and for the front-end. This repository is for the front-end, which will install 
   Please note that the app will need to sync its internal database
   with the blockchain state, which may take some time. You can check
   sync progress from within the web interface. More details about that process
-  on [litesight-api README](https://github.com/pembo210/Litesight-api/blob/master/README.md). 
+  on [Pixo-sight-api README](https://github.com/Pixocoin/Pixo-sight-api/blob/master/README.md). 
   
   
 ## Nginx Setup
@@ -74,9 +74,9 @@ There is a convenient Gruntfile.js for automation during editing the code
 $ grunt
 ```
 
-In case you are developing *Pixo™sight* and *litesight-api* together, you can do the following:
+In case you are developing *Pixo™sight* and *Pixo™sight-api* together, you can do the following:
 
-* Install litesight and litesight-api on the same path ($IROOT)
+* Install Pixo-sight and Pixo-sight-api on the same path ($IROOT)
 
 ```
   $ cd $IROOT/Litesight
@@ -86,19 +86,19 @@ In case you are developing *Pixo™sight* and *litesight-api* together, you can 
 in other terminal:
 
 ```
-  $ cd $IROOT/litesight-api
-  $ ln -s ../Litesight/public
+  $ cd $IROOT/Pixo-sight-api
+  $ ln -s ../Pixo-sightPixo-sight/public
   $ INSIGHT_PUBLIC_PATH=public node insight.js 
 ```
 
 
 ``` 
-INSIGHT_PUBLIC_PATH=Litesight/public  grunt
+INSIGHT_PUBLIC_PATH=Pixo-sight/public  grunt
 ```
 
-at litesight-api's home path (edit the path according your setup).
+at Pixo-sight-api's home path (edit the path according your setup).
 
-**also** in the Litesight-api path. (So you will have to grunt process running, one for litesight and one for litesight-api).
+**also** in the Pixo-sight-api path. (So you will have to grunt process running, one for Pixo-sight and one for Pixo-sight-api).
 
 
 ## Multilanguage support
@@ -130,11 +130,11 @@ compile***.
 
 ## Note
 
-For more details about the *litesight-api* configs and end-point, just go to [litesight-api github repository](https://github.com/pembo210/litesight-api) or read the [documentation](https://github.com/pembo210/Litesight-api/blob/master/README.md)
+For more details about the *litesight-api* configs and end-point, just go to [Pixo-sight-api github repository](https://github.com/Pixocoin/Pixo-sight-api) or read the [documentation](https://github.com/Pixocoin/Pixo-sight-api/blob/master/README.md)
 
 ## Contribute
 
-Contributions and suggestions are welcomed at [litesight github repository](https://github.com/Pixocoin/Pixo-sight).
+Contributions and suggestions are welcomed at [Pixo™sight github repository](https://github.com/Pixocoin/Pixo-sight).
 
 
 ## License
