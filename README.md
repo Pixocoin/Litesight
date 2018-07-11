@@ -1,4 +1,4 @@
-# *Litesight*
+# *Pixo™sight*
 
 *Litesight* is an open-source Litecoin blockchain explorer with complete REST and websocket APIs.
 Litesight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
