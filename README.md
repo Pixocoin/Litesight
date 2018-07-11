@@ -28,7 +28,7 @@ and for the front-end. This repository is for the front-end, which will install 
     
   Run the main application:
 
-    $ npm start
+    $ INSIGHT_NETWORK=livenet npm start
     
   Then open a browser and go to:
 
