@@ -21,7 +21,7 @@ and for the front-end. This repository is for the front-end, which will install 
 
   To install litesight, clone the main repository:
 
-    $ git clone https://github.com/pembo210/Litesight.git && cd Litesight
+    $ git clone https://github.com/Pixocoin/Pixo-sight.git && cd Litesight
 
   Install dependencies:
 
@@ -35,7 +35,7 @@ and for the front-end. This repository is for the front-end, which will install 
 
     http://localhost:3000
 
-  If *litesight* reports problems connecting to **litecoind** please check the CONFIGURATION section of 
+  If *Pixo™sight* reports problems connecting to **litecoind** please check the CONFIGURATION section of 
   [litesight-api README](https://github.com/pembo210/Litesight-api/blob/master/README.md). To set the 
   environment variables run something like:
   
@@ -50,7 +50,7 @@ and for the front-end. This repository is for the front-end, which will install 
   
 ## Nginx Setup
 
-To use Nginx as a reverse proxy for litesight, use the following base [configuration](https://gist.github.com/matiu/bdd5e55ff0ad90b54261)
+To use Nginx as a reverse proxy for Pixo™sight, use the following base [configuration](https://gist.github.com/matiu/bdd5e55ff0ad90b54261)
 
 
 ## Development
@@ -75,7 +75,7 @@ There is a convenient Gruntfile.js for automation during editing the code
 $ grunt
 ```
 
-In case you are developing *litesight* and *litesight-api* together, you can do the following:
+In case you are developing *Pixo™sight* and *litesight-api* together, you can do the following:
 
 * Install litesight and litesight-api on the same path ($IROOT)
 
@@ -135,7 +135,7 @@ For more details about the *litesight-api* configs and end-point, just go to [li
 
 ## Contribute
 
-Contributions and suggestions are welcomed at [litesight github repository](https://github.com/pembo210/Litesight).
+Contributions and suggestions are welcomed at [litesight github repository](https://github.com/Pixocoin/Pixo-sight).
 
 
 ## License
