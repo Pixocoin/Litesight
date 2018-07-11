@@ -21,7 +21,7 @@ and for the front-end. This repository is for the front-end, which will install 
 
   To install litesight, clone the main repository:
 
-    $ git clone https://github.com/Pixocoin/Pixo-sight.git && cd Litesight
+    $ git clone https://github.com/Pixocoin/Pixo-sight.git && cd Pixo-sight
 
   Install dependencies:
 
