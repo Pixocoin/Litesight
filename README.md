@@ -34,7 +34,7 @@ and for the front-end. This repository is for the front-end, which will install 
 
     http://localhost:3000
 
-  If *Pixo™sight* reports problems connecting to **litecoind** please check the CONFIGURATION section of 
+  If *Pixo™sight* reports problems connecting to **Pixocoind** please check the CONFIGURATION section of 
   [Pixo-sight-api README](https://github.com/Pixocoin/Pixo-sight-api/blob/master/README.md). To set the 
   environment variables run something like:
   
@@ -54,7 +54,7 @@ To use Nginx as a reverse proxy for Pixo™sight, use the following base [config
 
 ## Development
 
-To run litesight locally for development mode:
+To run Pixo™sight locally for development mode:
 
 Install bower dependencies:
 
@@ -79,7 +79,7 @@ In case you are developing *Pixo™sight* and *Pixo™sight-api* together, you c
 * Install Pixo-sight and Pixo-sight-api on the same path ($IROOT)
 
 ```
-  $ cd $IROOT/Litesight
+  $ cd $IROOT/Pixo-sight
   $ grunt
 ```
 
