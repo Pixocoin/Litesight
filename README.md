@@ -1,7 +1,6 @@
 # *Pixo™sight*
 
-*Pixo™sight* is an open-source Pixo™Cash blockchain explorer with complete REST and websocket APIs.
-Pixo™sight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
+*Pixo™sight* is an open-source Pixo™Cash blockchain explorer with complete REST and websocket APIs.  Pixo™sight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
 
 Check some screenshots and more details at [litesight's project homepage](https://github.com/pembo210/Litesight).
 
